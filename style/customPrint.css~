@@ -35,6 +35,19 @@ hgroup h2{
 	font-size:18px;
 
 }
+
+header figure {
+	
+	height: 106px;
+	width: 106px;
+}
+
+header figure img {
+
+	height: 100px;
+	width: 100px;
+}
+
 /*section cv*/
 
 .cvSections {
@@ -145,6 +158,7 @@ div.location:before, div.date:before{
 
 
 }
+/*
 div.location:before{
 
 	content: url('../icons/glyphicons/png/glyphicons_242_google_mapsp.png');;
@@ -156,7 +170,7 @@ div.date:before{
 	display: inline!important;
 
 
-}
+}*/
 /*end location and date*/
 
 h1{
@@ -183,6 +197,9 @@ p{
 }
 /*skills scale*/
 
+ul.skill_list {
+margin: 10px 0 32px;
+}
 
 ul.skill_list li span:before{
 	color:#333333;
@@ -224,4 +241,26 @@ ul.skill_list li span{
 
 	padding-left:0;
 }
+/*hobby*/
 
+div#hobbies{
+	width:100%;
+
+}
+#hobbies .cvSections div{
+	width:45%;
+	margin:0 15px;
+	float:left;
+
+}
+
+h3.hobby{
+
+padding-bottom:0px;
+
+}
+
+#hobbies .cvSections div h4{
+	margin-top:0;
+
+}
