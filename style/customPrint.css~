@@ -33,7 +33,7 @@ hgroup {
 }
 hgroup h2{
 	font-size:18px;
-
+	margin:5px 0;
 }
 
 header figure {
@@ -198,7 +198,7 @@ p{
 /*skills scale*/
 
 ul.skill_list {
-margin: 10px 0 32px;
+margin: 1px 0 32px;
 }
 
 ul.skill_list li span:before{
