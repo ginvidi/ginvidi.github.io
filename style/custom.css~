@@ -234,7 +234,11 @@ ul.lan li span.Novice:before{
 }
 
 
+.print{
 
+	display:none;
+
+}
 
 
 

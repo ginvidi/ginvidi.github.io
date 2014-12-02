@@ -37,8 +37,9 @@
 		<div class="container_16">
 				<hgroup>
 					<h1><span class="capitalize">ginevra viviana</span> <span class="uppercase">diana </span></h1>
+					<h2>Front End developer</h2>
 					<h2>Linguistic mediator and content manager</h2>
-					<p class="print ">London, UK| M:(+45)26560573| <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="#" title="go to online cv">CV online</a></p>
+					<p class="print ">London, UK| M:(+45)26560573| <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="http://ginvidi.github.io/" title="go to online cv">CV online</a></p>
 				</hgroup>
 
 				<figure>
@@ -69,14 +70,7 @@
 		<div class="grid_16">
 			<!-- About me -->
 			<div class="grid_8 allCV">
-				<!--<h3 class="about_me"> About me</h3>
-				<p>Cette section vous sert de présentation.</p>
-				<p>Pellentesque nec nisi at sapien sagittis sagittis. Aliquam eu 
-condimentum mauris. Proin accumsan enim at risus hendrerit lobortis. 
-Nunc sollicitudin sodales lectus, et rhoncus mi molestie hendrerit. 
-Vestibulum velit lorem, rhoncus a congue ultricies, faucibus facilisis 
-risus. Mauris turpis ante, aliquet ac venenatis at, ornare ut velit. 
-Duis ut erat neque, eget consectetur tellus. </p>-->
+				
 			
 
 			<!-- experience -->

@@ -68,14 +68,7 @@ h4 {
 	padding-left:40px;
 
 }
-/*.aboutme:after{
 
-   background-image: url('../icons/glyphicons/png/glyphicons_003_user.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-
-}*/
 h3.about_me:before, h3.experience:before, h3.edu:before, h3.hobby:before, h3.contact:before, h3.skills:before, .skillsFields h4:before, div.location:before,div.date:before{
 
 

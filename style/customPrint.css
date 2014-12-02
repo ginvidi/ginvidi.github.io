@@ -73,14 +73,7 @@ h4 {
 
 	padding-left:40px;
 }
-/*.aboutme:after{
 
-   background-image: url('../icons/glyphicons/png/glyphicons_003_user.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-
-}*/
 h3.about_me:before,h3.experience:before,h3.edu:before,h3.hobby:before,h3.contact:before,h3.skills:before,h4.lan:before,h4.it:before,h4.graph:before,div.location:before,div.date:before{
 
 
@@ -89,28 +82,7 @@ h3.about_me:before,h3.experience:before,h3.edu:before,h3.hobby:before,h3.contact
     background-position: center; 
 
 }
-/*
-h3.about_me:before{
-   content: url('../icons/glyphicons/png/glyphicons_003_user.png');
-}
-h3.experience:before{
-   content: url('../icons/glyphicons/png/glyphicons_341_briefcase.png');
-}
 
-h3.edu:before{
-   content: url('../icons/glyphicons/png/glyphicons_071_book.png');
-}
-
-h3.skills:before{
-   content: url('../icons/glyphicons/png/pglyphicons_009_magic.png');
-}
-h3.contact:before{
-   content: url('../icons/glyphicons/png/glyphicons_010_envelope.png');
-}
-
-h3.hobby:before{
-   content: url('../icons/glyphicons/png/glyphicons_335_pushpin.png');
-}*/
 h4:before {
 
 	display: block;
@@ -130,24 +102,7 @@ h4:before{
 
 }
 
-/*icons skills
-h4.lan:before{
-
-   content: url('../icons/glyphicons/png/glyphicons_245_chat.png');
-}
-h4.it:before{
-
-   content: url('../icons/glyphicons/png/glyphicons_160_imac.png');
-}
-h4.graph:before{
-
-   content: url('../icons/glyphicons/png/glyphicons_234_brush.png');
-}
-
-h4.office:before{
-
-   background-image: url('../icons/glyphicons/png/glyphicons_440_folder_closed.png');
-}*/
+/*icons skills*/
 h4:after {
 	background-position: 11px -34px;
 }
@@ -237,47 +192,7 @@ ul.skill_list li span:before{
 
 
 }
-/*
-ul.skill_list li span.Expert:before{
 
-	content: "Expert";
-
-
-	
-
-}
-ul.skill_list li span.Advanced:before{
-
-	content: "Advanced";
-
-}
-ul.skill_list li span.Intermediate:before{
-
-	content: "Intermediate";
-
-}
-
-ul.skill_list li span.Novice::before{
-
-	content: "Novice";
-
-}
-
-ul.lan li span.Advanced::before{
-
-	content: "Fluent";
-
-}
-ul.lan li span.Expert::before{
-
-	content: "Native";
-
-}
-ul.lan li span.Novice::before{
-
-	content: "Basic";
-
-}*/
 ul.skill_list li span{
 
 
