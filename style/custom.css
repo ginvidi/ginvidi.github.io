@@ -1,0 +1,244 @@
+/*general style*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+p{
+	line-height: 150%;
+	text-align: justify;
+
+}
+p, ul.b{
+	margin:0;
+
+}
+section[role=main] > div {
+	margin-top: 0px;
+}
+ul.b {
+	list-style-type: square;
+	margin-left: 2em;
+}
+.clear{
+
+	clear:both;
+}
+
+/*section cv*/
+
+.cvSections {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
+li.skills{
+
+	/*margin-left:30px;*/
+
+}
+
+
+h4{
+
+	margin-top: 0px;
+	position: relative;
+	padding: 20px 0 0 0px;
+
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 21px;
+
+
+	vertical-align: baseline;
+}
+
+ .skillsFields h4{
+	margin: 21px 0;
+	padding-left:40px;
+
+}
+/*.aboutme:after{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_003_user.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}*/
+h3.about_me:before, h3.experience:before, h3.edu:before, h3.hobby:before, h3.contact:before, h3.skills:before, .skillsFields h4:before, div.location:before,div.date:before{
+
+
+    background-repeat: no-repeat;
+
+    background-position: center; 
+
+}
+h3.about_me:before{
+   background-image: url('../icons/glyphicons/png/glyphicons_003_user.png');
+}
+h3.experience:before{
+   background-image: url('../icons/glyphicons/png/glyphicons_341_briefcase.png');
+}
+
+h3.edu:before{
+   background-image: url('../icons/glyphicons/png/glyphicons_071_book.png');
+}
+
+h3.skills:before{
+   background-image: url('../icons/glyphicons/png/glyphicons_009_magic.png');
+}
+h3.contact:before{
+   background-image: url('../icons/glyphicons/png/glyphicons_010_envelope.png');
+}
+
+h3.hobby:before{
+   background-image: url('../icons/glyphicons/png/glyphicons_335_pushpin.png');
+}
+ .skillsFields h4:before {
+	content: ' ';
+	display: block;
+	height: 30px;
+	left: 0px;
+	position: absolute;
+	top: 14px;
+	width:30px;
+}
+ .skillsFields h4:before{
+
+
+	background-color: #33a4c9;
+	border-radius: 25px;
+	background-size: 50%;
+
+}
+h4.lan:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_245_chat.png');
+}
+h4.it:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_160_imac.png');
+}
+h4.graph:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_234_brush.png');
+}
+
+h4.office:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_440_folder_closed.png');
+}
+h4:after {
+	background-position: 11px -34px;
+}
+
+ul.skill_list{
+	margin: 0 32px;
+
+}
+
+div.location, div.date{
+
+	width: 45%;
+	float: left!important;
+
+}
+
+div.location:before,div.date:before {
+	content: ' ';
+	display: block;
+	height: 22px;
+	left: 13px;
+	position: absolute;
+
+	width:22px;
+}
+
+
+div.location:before, div.date:before{
+
+
+	background-color: #eeeeee;
+	border-radius: 25px;
+	background-size: 50%;
+
+}
+div.location:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_242_google_maps.png');
+}
+
+div.date:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_045_calendar.png');
+	display: inline!important;
+	left: 50%;
+
+}
+
+/*skills scale*/
+ul.skill_list li span:before{
+	color:grey;
+	margin-left: 300px;
+
+}
+ul.skill_list li span.Expert:before{
+
+	content: "Expert";
+
+}
+ul.skill_list li span.Advanced:before{
+
+	content: "Advanced";
+
+}
+ul.skill_list li span.Intermediate:before{
+
+	content: "Intermediate";
+
+}
+
+ul.skill_list li span.Novice:before{
+
+	content: "Novice";
+
+}
+
+
+
+ul.lan li span.Advanced:before{
+
+	content: "Fluent";
+
+}
+ul.lan li span.Expert:before{
+
+	content: "Native";
+
+}
+ul.lan li span.Novice:before{
+
+	content: "Basic";
+
+}
+
+
+.print{
+
+	display:none;
+
+}
+
+
+

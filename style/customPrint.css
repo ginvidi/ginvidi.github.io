@@ -1,0 +1,312 @@
+
+/*from cv*/
+/**********
+/* Grille - 960.gs
+**********/
+.container_16 {
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.grid_16 .allCV{
+
+	width:58%;
+
+}
+
+.grid_16 .competences {
+	width:38%;
+}
+
+.print{
+
+	display:block;
+
+}
+/*header*/
+
+hgroup {
+	width:70%;
+	padding:0;
+}
+hgroup h2{
+	font-size:18px;
+
+}
+/*section cv*/
+
+.cvSections {
+	padding-top: 3em;
+}
+
+
+li.skills{
+
+	margin-left:10px;
+
+}
+h3.skills{
+
+	margin-left:5px;
+}
+
+h4{
+
+	margin-top: 0px;
+	position: relative;
+
+
+
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 21px;
+	margin: 21px 0;
+
+	vertical-align: baseline;
+}
+
+ .skillsFields h4{
+
+	padding-left:40px;
+}
+/*.aboutme:after{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_003_user.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}*/
+h3.about_me:before,h3.experience:before,h3.edu:before,h3.hobby:before,h3.contact:before,h3.skills:before,h4.lan:before,h4.it:before,h4.graph:before,div.location:before,div.date:before{
+
+
+    background-repeat: no-repeat;
+
+    background-position: center; 
+
+}
+/*
+h3.about_me:before{
+   content: url('../icons/glyphicons/png/glyphicons_003_user.png');
+}
+h3.experience:before{
+   content: url('../icons/glyphicons/png/glyphicons_341_briefcase.png');
+}
+
+h3.edu:before{
+   content: url('../icons/glyphicons/png/glyphicons_071_book.png');
+}
+
+h3.skills:before{
+   content: url('../icons/glyphicons/png/pglyphicons_009_magic.png');
+}
+h3.contact:before{
+   content: url('../icons/glyphicons/png/glyphicons_010_envelope.png');
+}
+
+h3.hobby:before{
+   content: url('../icons/glyphicons/png/glyphicons_335_pushpin.png');
+}*/
+h4:before {
+
+	display: block;
+	height: 20px;
+	left: 0px;
+	position: absolute;
+
+	width:20px;
+}
+h4:before{
+
+
+	background-color: #33a4c9;
+	border-radius: 25px;
+	background-size: 20%;
+	z-index:9;
+
+}
+
+/*icons skills
+h4.lan:before{
+
+   content: url('../icons/glyphicons/png/glyphicons_245_chat.png');
+}
+h4.it:before{
+
+   content: url('../icons/glyphicons/png/glyphicons_160_imac.png');
+}
+h4.graph:before{
+
+   content: url('../icons/glyphicons/png/glyphicons_234_brush.png');
+}
+
+h4.office:before{
+
+   background-image: url('../icons/glyphicons/png/glyphicons_440_folder_closed.png');
+}*/
+h4:after {
+	background-position: 11px -34px;
+}
+
+ul.skill_list{
+	margin: 0 15px;
+
+}
+/*end icons skills*/
+
+/*icons locationa and date*/
+div.location, div.date{
+
+	width: 30%;
+	font-size:9px;
+
+
+}
+
+div.location:before,div.date:before {
+
+	display: block;
+	height: 20px;
+	left: 12px;
+
+	position: absolute;
+
+	width:20px;
+}
+div.date:before{
+	left: 147px;
+}
+
+div.location:before, div.date:before{
+
+
+	background-color: #eeeeee!important;
+	border-radius: 25px;
+	margin:0;
+
+
+}
+div.location:before{
+
+	content: url('../icons/glyphicons/png/glyphicons_242_google_mapsp.png');;
+}
+
+div.date:before{
+
+   	content: url('../icons/glyphicons/png/glyphicons_045_calendarp.png');
+	display: inline!important;
+
+
+}
+/*end location and date*/
+
+h1{
+font-size:22px;
+
+}
+
+h4{
+	font-size:15px;
+
+}
+h3{
+	font-size:18px;
+
+}
+.skill_list li{
+	font-size:10px;
+
+}
+
+p{
+	font-size:10px;
+
+}
+/*skills scale*/
+
+
+ul.skill_list li span:before{
+	color:#333333;
+	margin-left: 134px;
+
+	font-size:10px;
+
+
+}
+/*
+ul.skill_list li span.Expert:before{
+
+	content: "Expert";
+
+
+	
+
+}
+ul.skill_list li span.Advanced:before{
+
+	content: "Advanced";
+
+}
+ul.skill_list li span.Intermediate:before{
+
+	content: "Intermediate";
+
+}
+
+ul.skill_list li span.Novice::before{
+
+	content: "Novice";
+
+}
+
+ul.lan li span.Advanced::before{
+
+	content: "Fluent";
+
+}
+ul.lan li span.Expert::before{
+
+	content: "Native";
+
+}
+ul.lan li span.Novice::before{
+
+	content: "Basic";
+
+}*/
+ul.skill_list li span{
+
+
+	height:5px!important;
+
+        -webkit-print-color-adjust: exact; 
+
+
+
+}
+
+
+.noPrint{
+	display:none;
+
+}
+.competences{
+
+	background-color: #D9D8D8;
+	border-radius: 13px;
+        -webkit-print-color-adjust: exact; 
+
+}
+
+.cvSections{
+        -webkit-print-color-adjust: exact; 
+}
+.mail{
+
+	padding-left:0;
+}
+
