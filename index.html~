@@ -1,1 +1,286 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="description" content="Ginevra Diana Curriculun Vitae">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript, CV, experience, skills">
+	<meta name="author" content="Ginevra Viviana Diana">
+	<link rel="shortcut icon" type="image/png" href="icons/glyphicons/png/glyphicons_062_paperclip.png"/>
+	<title>Ginevra Viviana Diana Linguistic mediator and content manager</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Fichiers CSS -->
+	<link rel="stylesheet" href="style/reset.css">
+	<!--[if lt IE 9]> 
+		<link rel="stylesheet" href="css/cv.css" media="screen">
+	<![endif]-->
+	<link rel="stylesheet" media="screen and (max-width:480px)" href="style/mobile.css">
+	<link rel="stylesheet" media="screen and (min-width:481px)" href="style/cv.css">
+	<!--<link rel="stylesheet" media="print" href="style/print.css">-->
+	<link rel="stylesheet" media="screen" href="style/custom.css">
+	<link rel="stylesheet" media="print" href="style/cv.css">
+	<link rel="stylesheet" media="print" href="style/custom.css">
+	<link rel="stylesheet" media="print" href="style/customPrint.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header role="banner">
+		<div class="container_16">
+				<hgroup>
+					<h1><span class="capitalize">ginevra viviana</span> <span class="uppercase">diana </span></h1>
+					<h2>Linguistic mediator and content manager</h2>
+					<p class="print ">London, UK| M:(+45)26560573| <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="#" title="go to online cv">CV online</a></p>
+				</hgroup>
+
+				<figure>
+					<img src="img/foto.jpg" alt="Ginevra Viviana Diana">
+				</figure>
+		</div>
+	</header>
+	
+	<!-- Contact -->
+	<section class="contactform clearfix">
+		<div class="container_16">
+			<h3>Contact me</h3>
+			<p><em>All fields are required </em></p>
+			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
+				<p class="grid_10"><textarea name="message" placeholder="Your message" class="required"></textarea></p>
+				<p class="grid_6">
+					<input name="nom" placeholder="Name - Surname" class="required" type="text">
+					<input name="email" placeholder="Email adresse" class="required" type="email">	
+					<input name="envoi" value="Send the message" class="required" type="submit">
+					<span class="messageform"></span>
+				</p>
+			</form>
+		</div>
+	</section>
+	
+	<!-- Corps -->
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16">
+			<!-- About me -->
+			<div class="grid_8 allCV">
+				<!--<h3 class="about_me"> About me</h3>
+				<p>Cette section vous sert de présentation.</p>
+				<p>Pellentesque nec nisi at sapien sagittis sagittis. Aliquam eu 
+condimentum mauris. Proin accumsan enim at risus hendrerit lobortis. 
+Nunc sollicitudin sodales lectus, et rhoncus mi molestie hendrerit. 
+Vestibulum velit lorem, rhoncus a congue ultricies, faucibus facilisis 
+risus. Mauris turpis ante, aliquet ac venenatis at, ornare ut velit. 
+Duis ut erat neque, eget consectetur tellus. </p>-->
+			
+
+			<!-- experience -->
+				<div class="cvSections">
+					<h3 class="experience">Experience</h3>
+					<ul>
+						<li>
+							<h4><strong>Front End web developer </strong>at <a href="http://www.discue.com/" title="visit Celi's web site" target="_blank">Discue</a></h4>
+							<div class="whrn">
+								<div class="location">Copenhagen</div>
+								<div class="date">03/2014</div>
+								<div class="clear"></div>
+							</div>
+							<p>Internship at Discue, a Danish Start-Up to develop a in social live streaming platform.</p> 							<strong>Activities:</strong>
+								<ul class="b"> 
+									<li>Website development with HTLM5, CSS3, Javascript, jQuery technologies.</li>
+									<li> Wordpress templates customization and development. 
+									<li>Testing, code review and bug fixing.</li>
+								</ul>
+							</p>
+						</li>
+						<li>
+							<h4><strong>Front End web developer </strong> at <a href="http://www.celi.it/index.shtml" title="visit Celi's web site" target="_blank">Celi</a></h4>
+							<div class="whrn">
+								<div class="location">Torino</div>
+								<div class="date">08/2013-02/2014</div>
+								<div class="clear"></div>
+							</div>
+							<p>Internship at Celi, an Italian company specialized in architecture and development of semantic search engines and processing texts softwares.</p>
+							 <strong>Activities:</strong> 
+								<ul class="b"> 
+									<li>Content Management, use of Ontology. </li>
+									<li>Study of accessibility and usability of websites and user interfaces.</li>
+									<li>Development and design of websites using HTML5/Javascript and jQuery, D3, Google APIs, Maps libraries, Gephi.</li>
+								</ul>
+							
+						</li>
+						<li>
+							<h4><strong>Front desk </strong> at Stintino Travel and Tourism Board</h4>
+							<div class="whrn">
+								<div class="location">Stintino </div>
+								<div class="date">2011</div>
+								<div class="clear"></div>
+							</div>
+							<p>Internship at Stintino local Travel and Tourism Board </p> 
+							<strong>Activities:</strong>  
+								<ul class="b">
+									<li>Organization and advertisement of tourist events and management of tourists accommodations. </li>
+								</ul>
+							
+						</li>
+					</ul>
+				</div>
+
+			<!-- Formations -->
+				<div class="cvSections">
+					<h3 class="edu">Education</h3>
+					<ul>
+						<li>
+							<h4><strong>Master in Project and Management of Multimedia Communication </strong> Turin University</h4>
+							<div class="whrn">
+								<div class="location">Torino</div>
+								<div class="date">2012-2013</div>
+								<div class="clear"></div>
+							</div>
+							<p>Italian first degree master in Project and Management of Multimedia Communication of Turin University, with honors.</p>
+							<strong>Activities:</strong>  
+								<ul class="b">
+									<li>  Web design and development, audio and video production, 2D and 3D graphics, management and production of multimedia products.</li>
+									<li> Content management with open source CMS as Drupal, Joomla, WordPress.</li> 
+									<li>Software development with HTLM5, CSS3, Javascript, jQuery, PHP, SQL, Python technologies. </li>
+									<li>Accessibility and usability of user interfaces. </li>
+									<li>Project management.</li>
+								</ul>
+							
+						</li>
+						<li>
+							<h4><strong>Bachelor's degree of Science in Modern Languages </strong> Parma University</h4>
+							<div class="whrn">
+								<div class="location">Parma</div>
+								<div class="date">2008-2012</div>
+								<div class="clear"></div>
+							</div>
+							<p>Bachelor's degree of Science in Modern Languages of Parma University with comprehensive final grade of 99/110. </p>
+								<ul class="b">
+									<li>   <strong>Spanish</strong> (main language, 3 years and literature).</li> 									<li><strong>German</strong> (second language, 3 years and literature) </li> 									<li><strong>French </strong> (just a years)</li>
+								</ul>
+	<p>Graduation thesis <em>Unamuno e la sua collaborazione con «El Correo» di Valencia</em>, work about all articles wrote by Spanish writer Unamuno in «El Correo». Author and historical explanation and analysis to understand reasons and intentions of these writings.</p>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+			
+			<!-- Skills -->
+			<div class="grid_8 competences">
+				<div class="cvSections">
+					<h3 class="skills">Skills</h3>
+					<ul class="skillsFields">
+						<li class="skills">
+							<h4 class="lan">Languages</h2>
+							<ul class="barres skill_list lan">
+								<li data-skills="80">English<span class="Advanced" style="width: 0%; height: 25px;" ></span></li>
+								<li data-skills="90">Spanish<span  class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="100">Italian<span class="Expert" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="20">Portuguese <span  class="Novice" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="20">German<span class="Novice" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="20">French<span class="Novice" style="width: 0%;height: 25px;"></span></li>
+							</ul>
+						</li>
+						<li class="skills">
+							<h4 class="graph">Operating systems</h2>
+							<ul class="barres skill_list">
+								<li data-skills="50">Ubuntu Linux<span class="Intermediate" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="80">Microsoft Windows <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+
+							</ul>
+						</li>
+
+						<li class="skills">
+							<h4 class="it">IT</h2>
+							<ul class="barres skill_list">
+								<li data-skills="80">HTLM5<span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="90">CSS3<span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="90">Bootstrap<span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="60">Javascript<span class="Intermediate" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="50">Jquery <span class="Intermediate" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="50">Google APIs (Maps, Calendar)<span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="20">Joomla, WordPress<span  class="Novice" style="width: 0%;height: 25px;"></span>
+								<li data-skills="40">PHP<span class="Novice"  style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="40">MySQL<span  class="Novice" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="30">Bash<span class="Novice"  style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="30">Python<span class="Novice"  style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="50">Eclipse IDE <span class="Intermediate" style="width: 0%;height: 25px;"></span></li>
+
+								<li data-skills="50">Version Control Systems (Svn, Mercurial, Git) <span class="Advanced"style="width: 0%;height: 25px;"></span></li>								
+							</ul>
+						</li>
+						<li class="skills">
+							<h4 class="graph">Graphics</h2>
+							<ul class="barres skill_list">
+								<li data-skills="50">Gimp, photoshop<span class="Intermediate"style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="20">One shot, Adobe Premiere <span class="Novice" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="30">Gephi <span class="Novice" style="width: 0%;height: 25px;"></span></li>
+
+							</ul>
+						</li>
+
+
+						<li class="skills">
+							<h4 class="office">Office</h2>
+							<ul class="barres skill_list">
+								<li data-skills="70">Microsoft Office Suite <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="70">OpenOffice <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+
+								
+
+
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		
+
+		</div>		
+		
+			<!-- hobbies -->
+			<div class="grid_8">
+				<div class="cvSections">
+					<h3 class="hobby">Hobbies</h3>
+					<p><strong>Photography:</strong> 2012/20013 basic course at Università popolare di Torino, 2013/2014 course at Social Advancement Association <a href="http://www.phlibero.it/coworking.html">Ph libero</a></p>
+					<p><strong>Dance:</strong> 10 years of Ballet and 3 years of belly dancing.</p>
+					<!--<p><strong>Art:</strong> .</p>-->
+				</div>
+			</div>
+		
+			<!-- Contact -->
+			<div class="grid_8 noPrint">
+				<div class="cvSections">
+					<h3 class="contact">Contact</h3>
+				
+					<ul>
+						<li class="location">London, UK</li>
+						<li class="phone"></li>
+						<li class="mail"><a href="https://www.linkedin.com/pub/ginevra-viviana-diana/64/798/b59/en" title="visit my linkedin profile" ><img src="icons/glyphicons_social/png/glyphicons_social_17_linked_in.png" alt="linkedin icon"></a></li>
+						<li><a class="mail" target="_blank">ginvidi@gmail.com</a></li>
+
+						<!--<li class="site"><a href="#">www.my-site.com</a></li>-->
+						<!--<li class="form"><a class="toContactform">Contact me by the form</a></li>-->
+
+					</ul>
+				</div>
+			</div>
+	</section>
+
+<!-- Scripts JavaScript -->
+<script src="js/jquery-1.js"></script>
+<script src="js/validate.js"></script>
+<!--[if lt IE 9]>
+<script src="scripts/placeholder.js"></script>
+<![endif]-->
+<script src="js/plugins.js"></script>
+<script src="js/protectMail.js"></script>
+
+</body></html>
