@@ -1,5 +1,7 @@
 /*general style*/
-
+.mobile{
+	display:none;
+}
 .uppercase {
     text-transform: uppercase;
 }

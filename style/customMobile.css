@@ -1,10 +1,18 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++general++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.nomobile{
+	display:none;
+
+}
+
+
 
 h4{
 	text-align:center;
 	padding: 20px 0 5px 0px;
 
 }
+
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++end general++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -14,7 +22,133 @@ header hgroup h1 {
 
 	line-height: 33px;
 }
+/*menu*/
+		.mobile{
+			display:block;
+		}
 
+	.glyphicon-tasks:before {
+		content: ' ';
+		background-image:url('../icons/glyphicons/png/menu.png');
+		background-repeat: no-repeat;
+		background-position: center; 
+		display: block;
+		height: 20px;
+		left: 0px;
+		width: 20px;
+		background-size: 80%;
+	}
+
+	.glyphicon {
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-family: 'Glyphicons Halflings';
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.btn-group{
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		width:100%;
+	}
+
+
+	.btn-group .btn{
+		position: relative;
+		float: left;
+	}
+
+
+	.btn {
+		display: inline-block;
+		padding: 2px 6px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+	button, html input[type=button], input[type=reset], input[type=submit] {
+		-webkit-appearance: button;
+		cursor: pointer;
+	}
+
+	.caret {
+		display: inline-block;
+		width: 0;
+		height: 0;
+		margin-left: 2px;
+		vertical-align: super;
+		border-top: 4px solid;
+		border-right: 4px solid transparent;
+		border-left: 4px solid transparent;
+	}
+
+
+
+	#menuList li a:hover, #menuList li a:focus {
+		color: #2c8eae;
+		text-decoration: none;
+		-webkit-transition: all 1s;
+	}
+
+/*menu list*/
+	#menuList li{
+		padding: 10px 5px;
+
+	}
+
+	#menuList li a:hover, #menuList li a:focus {
+		color: #2c8eae;
+		text-decoration: none;
+		-webkit-transition: all 1s;
+	}
+
+	#menuList li a h3{
+
+	margin:0;
+}
+	.dropdown-menu {
+		/*position: absolute;*/
+		width:100%;
+		top: 100%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		/*min-width: 160px;*/
+		padding: 5px 5px;
+		margin: 2px 0 0;
+		font-size: 14px;
+		text-align: left;
+		list-style: none;
+		background-color: #fff;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		border: 1px solid #ccc;
+		border: 1px solid rgba(0,0,0,.15);
+		border-radius: 4px;
+		-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+		box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++end header++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -55,5 +189,9 @@ header hgroup h1 {
 
 li.skills h4 {
 	text-align: left;
+}
+
+ul.skill_list li span:before {
+	color: transparent;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++ end skills ++++++++++++++++++++++++++++++++++++++++++++++++++*/
