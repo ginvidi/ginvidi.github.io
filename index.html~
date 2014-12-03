@@ -22,9 +22,11 @@
 		<link rel="stylesheet" href="css/cv.css" media="screen">
 	<![endif]-->
 	<link rel="stylesheet" media="screen and (max-width:798px)" href="style/mobile.css">
+
 	<link rel="stylesheet" media="screen and (min-width:799px)" href="style/cv.css">
 	<!--<link rel="stylesheet" media="print" href="style/print.css">-->
 	<link rel="stylesheet" media="screen" href="style/custom.css">
+	<link rel="stylesheet" media="screen and (max-width:798px)" href="style/customMobile.css">
 	<link rel="stylesheet" media="print" href="style/cv.css">
 	<link rel="stylesheet" media="print" href="style/custom.css">
 	<link rel="stylesheet" media="print" href="style/customPrint.css">
@@ -39,7 +41,7 @@
 					<h1><span class="capitalize">ginevra viviana</span> <span class="uppercase">diana </span></h1>
 					<h2>Front End developer</h2>
 					<h2>Linguistic mediator and content manager</h2>
-					<p class="print ">London, UK| M:(+45)26560573| <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="http://ginvidi.github.io/" title="go to online cv">CV online</a></p>
+					<p class="print ">London, UK | M:(+45)26560573 | <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="http://ginvidi.github.io/" title="go to online cv">CV online</a></p>
 				</hgroup>
 
 				<figure>
@@ -78,7 +80,12 @@
 					<h3 class="experience">Experience</h3>
 					<ul>
 						<li>
-							<h4><strong>Front End web developer </strong>at <a href="http://www.discue.com/" title="visit Celi's web site" target="_blank">Discue</a></h4>
+							<h4>
+								<strong>Front End web developer </strong>at 
+								<span class="whr">
+									<a href="http://www.discue.com/" title="visit Celi's web site" target="_blank">Discue</a>
+								</span>
+							</h4>
 							<div class="whrn">
 								<div class="location">Copenhagen</div>
 								<div class="date">03/2014</div>
@@ -93,7 +100,11 @@
 							</p>
 						</li>
 						<li>
-							<h4><strong>Front End web developer </strong> at <a href="http://www.celi.it/index.shtml" title="visit Celi's web site" target="_blank">Celi</a></h4>
+							<h4><strong>Front End web developer </strong> at
+								<span class="whr">
+									  <a href="http://www.celi.it/index.shtml" title="visit Celi's web site" target="_blank">Celi</a>
+								</span>
+							</h4>
 							<div class="whrn">
 								<div class="location">Torino</div>
 								<div class="date">08/2013-02/2014</div>
@@ -130,7 +141,9 @@
 					<h3 class="edu">Education</h3>
 					<ul>
 						<li>
-							<h4><strong>Master in Project and Management of Multimedia Communication </strong> Turin University</h4>
+							<h4>
+								<strong>Master in Project and Management of Multimedia Communication </strong> 									<span class="whr">Turin University</span>
+							</h4>
 							<div class="whrn">
 								<div class="location">Torino</div>
 								<div class="date">2012-2013</div>
@@ -148,7 +161,10 @@
 							
 						</li>
 						<li>
-							<h4><strong>Bachelor's degree of Science in Modern Languages </strong> Parma University</h4>
+							<h4>
+								<strong>Bachelor's degree of Science in Modern Languages </strong>
+								<span class="whr"> Parma University</span>
+							</h4>
 							<div class="whrn">
 								<div class="location">Parma</div>
 								<div class="date">2008-2012</div>
