@@ -47,11 +47,11 @@
 			 	</button>
 				<ul id="menuList" class="dropdown-menu" role="menu">
 			 		<li><a href="#ex"><h3>Experience</h3></a></li>
-					<li><a href="#ed">Education</a></li>
-					<li><a href="#sk">Skills</a></li>
-					<li><a href="#hobbies">Hobbies</a></li>
+					<li><a href="#ed"><h3>Education</h3></a></li>
+					<li><a href="#sk"><h3>Skills</h3></a></li>
+					<li><a href="#hobbies"><h3>Hobbies</h3></a></li>
 					<li class="divider"></li>
-					<li><a href="#ct">Contact</a></li>
+					<li><a href="#ct"><h3>Contact</h3></a></li>
 				</ul>
 			</div>
 	<!--end mobile menu-->
@@ -286,11 +286,13 @@
 					<h3 class="hobby">Hobbies</h3>
 					<div>
 						<h4><strong>Photography</strong></h4>
-						<p> 2012/20013 basic course at Università popolare di Torino, 2013/2014 course at Social Advancement Association <a href="http://www.phlibero.it/coworking.html">Ph libero</a>.</p>
+						<p> <strong>2012/20013</strong> basic course at Università popolare di Torino,</p>
+						<p> <strong> 2013/2014</strong>course at Social Advancement Association <a href="http://www.phlibero.it/coworking.html">Ph libero</a>.</p>
 					</div>
 					<div>
 						<h4><strong>Dance</strong></h4>
-						<p> 10 years of Ballet and 3 years of belly dancing.</p>
+						<p>  <strong>1989-1999</strong>  Ballet classes at Jaguse Vrankova's school</p>
+						<p> <strong>2002-2004 </strog> Belly dancing at Sporting gym.</p>
 					</div>
 				</div>
 			</div>
