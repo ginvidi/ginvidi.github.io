@@ -32,6 +32,19 @@ ul.b {
 	clear:both;
 }
 
+/*header*/
+header hgroup h2 {
+	color: #33a4c9;
+	font-style: normal;
+
+}
+
+header figure {
+	
+	margin-top:5px;
+}
+
+
 /*section cv*/
 
 .cvSections {

@@ -21,8 +21,8 @@
 	<!--[if lt IE 9]> 
 		<link rel="stylesheet" href="css/cv.css" media="screen">
 	<![endif]-->
-	<link rel="stylesheet" media="screen and (max-width:480px)" href="style/mobile.css">
-	<link rel="stylesheet" media="screen and (min-width:481px)" href="style/cv.css">
+	<link rel="stylesheet" media="screen and (max-width:798px)" href="style/mobile.css">
+	<link rel="stylesheet" media="screen and (min-width:799px)" href="style/cv.css">
 	<!--<link rel="stylesheet" media="print" href="style/print.css">-->
 	<link rel="stylesheet" media="screen" href="style/custom.css">
 	<link rel="stylesheet" media="print" href="style/cv.css">

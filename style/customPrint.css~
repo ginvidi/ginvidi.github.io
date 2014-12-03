@@ -3,6 +3,10 @@
 /**********
 /* Grille - 960.gs
 **********/
+header[role=banner] {
+
+margin-top: -20px;
+}
 .container_16 {
 	max-width: 100%;
 	width: 100%;
@@ -31,21 +35,34 @@ hgroup {
 	width:70%;
 	padding:0;
 }
+hgroup h1{
+
+	margin:15px 0;
+}
 hgroup h2{
 	font-size:18px;
 	margin:15px 0;
+	font-weight: bold;
 }
 
 header figure {
 	
 	height: 106px;
 	width: 106px;
+	margin-top:20px;
 }
 
 header figure img {
 
 	height: 100px;
 	width: 100px;
+}
+header hgroup h2 {
+	color: #77DDFF;
+	font-style: normal;
+	margin: 5px 0;
+	text-shadow: none;
+
 }
 
 /*section cv*/
@@ -200,12 +217,15 @@ p{
 /*skills scale*/
 
 ul.skill_list {
-margin: 1px 0 32px;
+	margin: 2px 0 32px;
 }
+.skillsFields h4 {
+	margin: 5px 0;
 
+}
 ul.skill_list li span:before{
 	color:#333333;
-	margin-left: 154px;
+	margin-left: 150px;
 
 	font-size:10px;
 
