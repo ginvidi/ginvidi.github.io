@@ -112,7 +112,7 @@ header hgroup h1 {
 
 /*menu list*/
 	#menuList li{
-		padding: 10px 3px;
+		padding: 10px 5px;
 
 	}
 

@@ -52,10 +52,14 @@ header hgroup h1 {
 	}
 
 	.btn-group{
-		position: relative;
+		position: fixed;
 		display: inline-block;
 		vertical-align: middle;
 		width:100%;
+		top: 0;
+		z-index: 99;
+
+
 	}
 
 

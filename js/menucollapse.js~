@@ -8,40 +8,34 @@ var menu;
 			$('#menuList').css('display', 'block');
 			 menu=true;
 
+
+
+		/*mouse over menues items*/
+	
+
+		     $('#menuList li a').hover(
+			 function () {
+			   $(this).parent().css({"background-color":"#eeeeee"});
+					$( this ).click(function() {
+						$('#menuList').css('display', 'none');
+						menu=false;
+					});
+			 }, 
+			 function () {
+			   $(this).parent().css({"background-color":"#ffffff"});
+			 }
+		     );
+
 		}
 		else{
 			$('#menuList').css('display', 'none');
 			 menu=false;
+			alert(menu);
 
 		}
-			
+		alert(menu);	
 
 	});
-
-
-	/*$( "#menuList li a" ).hover(function(){
-
-		$( this ).parent().css( "background-color", "#eeeeee" );	
-
-	});
-
-
-	$( "#menuList li a" ).mouseleave(function(){
-
-		$( this ).parent().css( "background-color", "none" );	
-
-	});*/
-
-	
-
-     $('#menuList li a').hover(
-         function () {
-           $(this).parent().css({"background-color":"#eeeeee"});
-         }, 
-         function () {
-           $(this).parent().css({"background-color":"#ffffff"});
-         }
-     );
 
 });
 
