@@ -39,6 +39,12 @@ header hgroup h2 {
 
 }
 
+header figure {
+	
+	margin-top:5px;
+}
+
+
 /*section cv*/
 
 .cvSections {
