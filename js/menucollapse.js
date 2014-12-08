@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-var menu;
+	var menu;
 	$( "#menu" ).click(function() {
 
 		if (menu==undefined||menu==false){

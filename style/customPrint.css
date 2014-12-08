@@ -95,7 +95,7 @@ h4 {
 	font-size: 18px;
 	line-height: 21px;
 	margin: 21px 0;
-
+	padding: 6px 0 0 0px;
 	vertical-align: baseline;
 }
 
@@ -203,8 +203,21 @@ h4{
 }
 h3{
 	font-size:18px;
+	padding-left:50px!important;
 
 }
+
+
+h3:before {
+
+	height: 40px;
+
+
+	top: -10px;
+	width: 40px;
+}
+
+
 .skill_list li{
 	font-size:10px;
 
@@ -215,18 +228,29 @@ p{
 
 }
 /*skills scale*/
+.competences .barres li {
+	margin-bottom: 18px;
 
+}
 ul.skill_list {
-	margin: 2px 0 32px;
+	margin: 0px 3px 32px;
+	padding-left:20px;
 }
 .skillsFields h4 {
 	margin: 5px 0!important;
-
+	padding-bottom:0;
+	padding-left:25px;
 }
+.skillsFields h4:before {
+	height: 20px;
+	top: 6px;
+	width: 20px;
+}
+
 ul.skill_list li span:before{
 	color:#333333;
-	margin-left: 150px;
-
+	margin-left: 140px;
+	
 	font-size:10px;
 
 
@@ -267,6 +291,7 @@ ul.skill_list li span{
 
 div#hobbies{
 	width:100%;
+	margin-top:-15px;
 
 }
 #hobbies .cvSections div{

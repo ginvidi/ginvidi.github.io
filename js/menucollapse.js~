@@ -30,10 +30,10 @@ var menu;
 		else{
 			$('#menuList').css('display', 'none');
 			 menu=false;
-			alert(menu);
+
 
 		}
-		alert(menu);	
+
 
 	});
 

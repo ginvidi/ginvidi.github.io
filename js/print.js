@@ -1,0 +1,13 @@
+$( document ).ready(function() {
+
+	$( "#printBtn" ).click(function() {
+
+		fileName= $("#printBtn").val();
+
+
+		window.print();
+		return false;
+	});
+
+});
+
