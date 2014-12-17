@@ -59,7 +59,7 @@
 					<h1><span class="capitalize">ginevra viviana</span> <span class="uppercase">diana </span></h1>
 					<h2>Front End developer</h2>
 					<h2>Linguistic mediator and content manager</h2>
-					<p class="print ">London, UK | M:(+45)26560573 | <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="http://ginvidi.github.io/" title="go to online cv">CV online</a></p>
+					<p class="print ">London, UK | M:(+44)7479857267 | <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="http://ginvidi.github.io/" title="go to online cv">CV online</a></p>
 				</hgroup>
 
 				<figure>
@@ -197,7 +197,7 @@
 							</div>
 							<p>Bachelor's degree of Science in Modern Languages of Parma University with comprehensive final grade of 99/110. </p>
 								<ul class="b">
-									<li>   <strong>Spanish</strong> (main language, 3 years and literature).</li> 									<li><strong>German</strong> (second language, 3 years and literature) </li> 									<li><strong>French </strong> (just a years)</li>
+									<li>   <strong>Spanish</strong> main language, 3 years and literature.</li> 									<li><strong>German</strong> second language, 3 years and literature. </li> 									<li><strong>French </strong> one years.</li>
 								</ul>
 	<p>Graduation thesis <em>Unamuno e la sua collaborazione con «El Correo» di Valencia</em>, work about all articles wrote by Spanish writer Unamuno in «El Correo». Author and historical explanation and analysis to understand reasons and intentions of these writings.</p>
 						</li>
@@ -304,12 +304,32 @@
 				<div class="cvSections">
 					<h3 class="contact">Contact</h3>
 				
-					<ul>
-						<li class="location">London, UK</li>
-						<li class="phone"> (+45) 26560573</li>
-						<li class="mail"><a href="https://www.linkedin.com/pub/ginevra-viviana-diana/64/798/b59/en" title="visit my linkedin profile" ><img src="icons/glyphicons_social/png/glyphicons_social_17_linked_in.png" alt="linkedin icon"></a></li>
-						<li><a class="mail" target="_blank">ginvidi@gmail.com</a></li>
-						<li><button type="button" value="GinevraVivianaDIANAcv.pdf" id="printBtn" class="btn">Download CV</button></li>
+					<ul class="contacts">
+						<li class="address">
+							<img src="../icons/glyphicons/png/glyphicons_242_google_maps.png">
+							<span> London, UK</span>
+						</li>
+
+						<li class="phone">
+							<img src="../icons/glyphicons/png/glyphicons_442_earphone.png">
+							<span> +447479857267 </span>
+						</li>
+						<li class="mail">
+							<img src="../icons/glyphicons/png/glyphicons_010_envelope.png">
+							<a  target="_blank">
+
+								<span> ginvidi@gmail.com</span>
+							</a>
+						</li>
+						<li class="mail">
+							<img src="icons/glyphicons_social/png/glyphicons_social_17_linked_in.png" alt="linkedin icon">
+							<a href="https://www.linkedin.com/pub/ginevra-viviana-diana/64/798/b59/en" title="visit my linkedin profile" >
+								
+								<span> Linkendin</span>
+							</a>
+						</li>
+
+						<li><button type="button" value="GinevraVivianaDIANAcv" id="printBtn" class="btn">Download CV</button></li>
 
 
 						<!--<li class="form"><a class="toContactform">Contact me by the form</a></li>-->
@@ -317,6 +337,9 @@
 					</ul>
 				</div>
 			</div>
+		<div class="grid_16 noPrint">
+			<button type="button" value="GinevraVivianaDIANAcv" id="printBtn" class="btn">Download CV</button>
+		</div>
 	</section>
 
 <!-- Scripts JavaScript -->

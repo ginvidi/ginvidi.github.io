@@ -113,6 +113,9 @@ h3.contact:before{
    background-image: url('../icons/glyphicons/png/glyphicons_010_envelope.png');
 }
 
+
+
+
 h3.hobby:before{
    background-image: url('../icons/glyphicons/png/glyphicons_335_pushpin.png');
 }
@@ -177,7 +180,7 @@ div.location:before,div.date:before {
 	content: ' ';
 	display: block;
 	height: 22px;
-	left: 13px;
+	left: 7px;
 	position: absolute;
 
 	width:22px;
@@ -258,9 +261,30 @@ ul.lan li span.Novice:before{
 
 }
 
+
+/*Contacts*/
+.contacts li {
+	padding-bottom:5px;
+
+}
+
+.contacts li img{
+	max-height:16px;
+	max-width:13px;
+
+}
+
+.contacts li span{
+
+	padding-left: 15px;
+
+}
+
 /*print cv btn*/
 #printBtn{
-	margin: 11px 10px 1px 32px;
+	/*margin: 11px 10px 1px 32px;*/
+	max-width:14%;
+	margin: 0 43%;
 	background-color: rgba(51, 164, 201, 1);
 	font-weight: bold;
 
@@ -288,3 +312,5 @@ ul.lan li span.Novice:before{
 	border: 1px solid transparent;
 	border-radius: 4px;
 }
+
+
