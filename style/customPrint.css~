@@ -203,7 +203,7 @@ h4{
 }
 h3{
 	font-size:18px;
-	padding-left:50px;
+	padding-left:50px!important;
 
 }
 
@@ -233,8 +233,8 @@ p{
 
 }
 ul.skill_list {
-	margin: 0px 3px 32px;
-	padding-left:20px;
+	margin: 0px  3px 38px;
+	padding-left:0px;
 }
 .skillsFields h4 {
 	margin: 5px 0!important;
@@ -249,7 +249,7 @@ ul.skill_list {
 
 ul.skill_list li span:before{
 	color:#333333;
-	margin-left: 140px;
+	margin-left: 160px;
 	
 	font-size:10px;
 
@@ -274,7 +274,7 @@ ul.skill_list li span{
 }
 .competences{
 
-	background-color: #D9D8D8;
+	background-color: #FaFaFa;
 	border-radius: 13px;
         -webkit-print-color-adjust: exact; 
 
