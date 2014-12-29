@@ -62,7 +62,7 @@
 					<p class="print ">London, UK | M:(+44)7479857267 | <a class="mail" href="" title="send me a email">ginvidi@gmail.com</a>| <a href="http://ginvidi.github.io/" title="go to online cv">CV online</a></p>
 				</hgroup>
 
-				<figure>
+				<figure class="">
 					<img src="img/foto.jpg" alt="Ginevra Viviana Diana">
 				</figure>
 			
@@ -212,6 +212,37 @@
 				<div class="cvSections">
 					<h3  class="skills">Skills</h3>
 					<ul class="skillsFields">
+
+						<li class="skills">
+							<h4 class="lan">Languages</h2>
+							<ul class="barres skill_list lan">
+								<li data-skills="80">English<span class="Advanced" style="width: 0%; height: 25px;" ></span></li>
+								<li data-skills="90">Spanish<span  class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="100">Italian<span class="Expert" style="width: 0%;height: 25px;"></span></li>
+								<!--<li data-skills="20">Portuguese <span  class="Novice" style="width: 0%;height: 25px;"></span></li>-->
+								<li data-skills="20">German<span class="Novice" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="20">French<span class="Novice" style="width: 0%;height: 25px;"></span></li>
+							</ul>
+						</li>
+
+
+						
+
+
+						<li class="skills">
+							<h4 class="office">Office</h2>
+							<ul class="barres skill_list">
+								<li data-skills="70">Microsoft Office Suite <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+								<li data-skills="70">OpenOffice <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
+
+								
+
+
+							</ul>
+						</li>
+
+
+
 <li class="skills">
 							<h4 class="it">IT</h2>
 							<ul class="barres skill_list">
@@ -248,33 +279,7 @@
 
 							</ul>
 						</li>
-						<li class="skills">
-							<h4 class="lan">Languages</h2>
-							<ul class="barres skill_list lan">
-								<li data-skills="80">English<span class="Advanced" style="width: 0%; height: 25px;" ></span></li>
-								<li data-skills="90">Spanish<span  class="Advanced" style="width: 0%;height: 25px;"></span></li>
-								<li data-skills="100">Italian<span class="Expert" style="width: 0%;height: 25px;"></span></li>
-								<li data-skills="20">Portuguese <span  class="Novice" style="width: 0%;height: 25px;"></span></li>
-								<li data-skills="20">German<span class="Novice" style="width: 0%;height: 25px;"></span></li>
-								<li data-skills="20">French<span class="Novice" style="width: 0%;height: 25px;"></span></li>
-							</ul>
-						</li>
 
-
-						
-
-
-						<li class="skills">
-							<h4 class="office">Office</h2>
-							<ul class="barres skill_list">
-								<li data-skills="70">Microsoft Office Suite <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
-								<li data-skills="70">OpenOffice <span class="Advanced" style="width: 0%;height: 25px;"></span></li>
-
-								
-
-
-							</ul>
-						</li>
 					</ul>
 				</div>
 			</div>
@@ -329,7 +334,7 @@
 							</a>
 						</li>
 
-						<li><button type="button" value="GinevraVivianaDIANAcv" id="printBtn" class="btn">Download CV</button></li>
+
 
 
 						<!--<li class="form"><a class="toContactform">Contact me by the form</a></li>-->

@@ -80,6 +80,7 @@ li.skills{
 h3.skills{
 
 	margin-left:5px;
+	margin-right:5px;
 }
 
 h4{
@@ -94,7 +95,7 @@ h4{
 h4 {
 	font-size: 18px;
 	line-height: 21px;
-	margin: 21px 0;
+	margin: 23px 0;
 	padding: 6px 0 0 0px;
 	vertical-align: baseline;
 }
