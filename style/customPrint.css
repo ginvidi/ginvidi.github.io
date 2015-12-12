@@ -46,7 +46,7 @@ hgroup h2{
 }
 
 header figure {
-	
+
 	height: 106px;
 	width: 106px;
 	margin-top:20px;
@@ -75,6 +75,7 @@ header hgroup h2 {
 li.skills{
 
 	margin-left:10px;
+	margin-bottom: 60px;
 
 }
 h3.skills{
@@ -111,7 +112,7 @@ h3.about_me:before,h3.experience:before,h3.edu:before,h3.hobby:before,h3.contact
 
     background-repeat: no-repeat;
 
-    background-position: center; 
+    background-position: center;
 
 }
 
@@ -141,7 +142,7 @@ h4:after {
 
 ul.skill_list{
 	padding: 0 15px;
-	
+
 
 }
 /*end icons skills*/
@@ -251,7 +252,7 @@ ul.skill_list {
 ul.skill_list li span:before{
 	color:#333333;
 	margin-left: 160px;
-	
+
 	font-size:10px;
 
 
@@ -262,7 +263,7 @@ ul.skill_list li span{
 
 	height:5px!important;
 
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
 
 
 
@@ -277,12 +278,12 @@ ul.skill_list li span{
 
 	background-color: #FaFaFa;
 	border-radius: 13px;
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
 
 }
 
 .cvSections{
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
 }
 .mail{
 
